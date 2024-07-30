@@ -1,0 +1,33 @@
+<?php
+    $a=$_GET['a'];
+    $b=$_GET['b'];
+    $c=$_GET['c'];
+    print("Nombres:");
+    echo "<br>";
+    print("nombre1:".$a."<br>");
+    print("nombre2:".$b."<br>");
+    print("nombre3:".$c."<br>");
+    print("Numeros:");
+    echo "<br>";
+    $n=$_GET['n'];
+    $n1=$_GET['n1'];
+    $n2=$_GET['n2'];
+    var_dump($n>$n1);
+    echo "<br>";
+    var_dump($n<$n1);
+    echo "<br>";
+    var_dump($n==$n1);
+    echo "<br>";
+    var_dump($n>$n2);
+    echo "<br>";
+    var_dump($n<$n2);
+    echo "<br>";
+    var_dump($n==$n2);
+    echo "<br>";
+    var_dump($n1>$n2);
+    echo "<br>";
+    var_dump($n1<$n2);
+    echo "<br>";
+    var_dump($n1==$n2);
+    echo "<br>";
+?>
